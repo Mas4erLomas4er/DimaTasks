@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f49890;
+    color: #fff;
+}
+
+#main-block {
+    width: 50%;
+    background: #cc7d79;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 0 15px;
+    -moz-border-radius: 0 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+.fixedBlock {
+    display: flex;
+    flex-direction: column;
+    background: #b46965;
+    align-items: center;
+    width: 100px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.fixedBlock:hover {
+    background: #98504f;
+}
+
+.fixedBlock .fixed-foto {
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fixedBlock .text {
+    margin: 5px;
+}
+
+h2 {
+    border-top: 1px solid #cc6d42;
+    width: 70%;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+#images {
+    width: 100%;
+}
+
+#images .scaleImage {
+    margin: 20px 0;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#images .scaleImage img {
+    max-width: 100%;
+    transform: scale(1.25);
+    min-height: 500px;
+}
+
+footer {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-style: italic;
+    padding: 10px;
+    border-top: 1px solid #cc6d42;
+    border-bottom: 1px solid #cc6d42;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    color: #fff;
+    background: #cc7d79;
+    display: none;
+}
